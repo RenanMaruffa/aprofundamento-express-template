@@ -12,3 +12,9 @@ export type TAccount = {
     balance: number,
     type: ACCOUNT_TYPE
 }
+
+export type TUsers = {
+    id: string,
+    name: string,
+    email: string
+}
